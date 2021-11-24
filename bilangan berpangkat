@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int pangkat(int x, int y)
+{
+if (y == 0)
+{
+return 1;
+}
+else
+{
+return x *pangkat(x,y -1);
+}
+}
+int main()
+{
+	int x, y;
+	printf(" masukkan x = "); scanf("%d",&x);
+	printf("\n\n\n");
+	printf("masukkan y = ");  scanf("%d",&y);
+	printf("%d",x * pangkat(x,y -1));
+}
