@@ -1,4 +1,6 @@
 # bilangan-angka
 **angka pangkat, faktorial,, fibbonaci**
 
-Mencoba melakukan pull request pada fork
+
+
+<sub> Note: Melakukan pull request pada fork </sub>
